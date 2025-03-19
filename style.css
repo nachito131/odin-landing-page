@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	display: flex;
+	padding: 15px 15%;
+	font-size: 18px;
+	background-color: #1f2937;
+	color: #f9faf8;
+}
+
+header p {
+	margin: 10px 15px;
+}
+
+.logo {
+	margin-right: auto;
+	font-weight: bold;
+	font-size: 21px;
+}
