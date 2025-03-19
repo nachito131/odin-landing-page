@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -10,13 +16,45 @@ header {
 	background-color: #1f2937;
 	color: #f9faf8;
 }
-
 header p {
-	margin: 10px 15px;
+	margin: 0 10px;
 }
 
 .logo {
 	margin-right: auto;
 	font-weight: bold;
 	font-size: 21px;
+}
+
+.hero {
+	background-color: #1f2937;
+	color: #f9faf8;
+	padding: 55px 15% 120px;
+	display: flex;
+}
+
+.side-left {
+	width: 50%;
+	padding-right: 55px;
+}
+.side-right {
+	background-color: gray;
+	text-align: center;
+	width: 50%;
+}
+.side-right p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+}
+
+button {
+	background-color: #3882f6;
+	padding: 15px 40px;
+	border-radius: 15px;
+	border-style: none;
+	color: #f9faf8;
+	font-size: 15px;
+	font-weight: bold;
 }
