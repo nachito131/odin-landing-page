@@ -3,6 +3,17 @@
 *::after {
 	box-sizing: border-box;
 }
+img {
+	font-style: italic;
+	width: 200px;
+	height: 200px;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-size: cover;
+	shape-margin: 0.75;
+	border: 5px solid #3882f6;
+	border-radius: 15px;
+}
 
 body {
 	margin: 0;
@@ -57,4 +68,31 @@ button {
 	color: #f9faf8;
 	font-size: 15px;
 	font-weight: bold;
+}
+
+.section-1 {
+	margin: 15px 15%;
+	padding-top: 15px;
+}
+
+.section-1 h2 {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.image-section {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 100px;
+}
+
+.image-section p {
+	padding-left: 35px;
+	width: 150px;
+	text-align: center;
+}
+
+.image {
+	width: 300px;
+	height: auto;
 }
