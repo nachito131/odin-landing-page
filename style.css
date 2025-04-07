@@ -96,3 +96,18 @@ button {
 	width: 300px;
 	height: auto;
 }
+
+.quote {
+	background-color: #e5e7eb;
+	font-size: 36px;
+	font-weight: lighter;
+	color: #1f2937;
+	text-align: center;
+	padding: 40px 400px;
+}
+
+.author {
+	font-size: 1.5rem;
+	font-weight: bold;
+	text-align: end;
+}
