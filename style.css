@@ -68,6 +68,7 @@ button {
 	color: #f9faf8;
 	font-size: 15px;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .section-1 {
@@ -110,4 +111,23 @@ button {
 	font-size: 1.5rem;
 	font-weight: bold;
 	text-align: end;
+}
+
+.sign-up {
+	margin: 60px 20%;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	background-color: #3882f6;
+	border-radius: 15px;
+}
+
+.text-container {
+	padding: 15px 105px;
+}
+
+.sign-up button {
+	margin-right: 15%;
+	border: 2px solid white;
+	align-self: center;
 }
